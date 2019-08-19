@@ -1,47 +1,4 @@
-/* eslint-disable no-unused-vars, no-var */
-/**
- * @file 
- * @author modifed by - xinming (qingminggy5@gmail.com)
- *         
- *         
- */
 
-var config = {
-    // Configuration
-    //
-
-    // Alternative location for the configuration.
-    // configLocation: './config.json',
-
-    // Custom function which given the URL path should return a room name.
-    // getroomnode: function (path) { return 'someprefixpossiblybasedonpath'; },
-
-
-    // Connection
-    //
-
-    hosts: {
-        // XMPP domain.
-        domain: 'fy.hxpd.org',
-
-        // When using authentication, domain for guest users.
-        // anonymousdomain: 'guest.example.com',
-		anonymousdomain: 'guest.fy.hxpd.org',
-
-        // Domain for authenticated users. Defaults to <domain>.
-        // authdomain: 'jitsi-meet.example.com',
-
-        // Jirecon recording component domain.
-        // jirecon: 'jirecon.jitsi-meet.example.com',
-
-        // Call control component (Jigasi).
-        // call_control: 'callcontrol.jitsi-meet.example.com',
-
-        // Focus component domain. Defaults to focus.<domain>.
-        // focus: 'focus.jitsi-meet.example.com',
-
-        // XMPP MUC domain. FIXME: use XEP-0030 to discover it.
-        muc: 'conference.fy.hxpd.org',
     },
 
     // BOSH URL. FIXME: use XEP-0156 to discover it.
